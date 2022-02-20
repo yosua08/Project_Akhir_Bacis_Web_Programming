@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0 auto;
+  color: #f76e11;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #f76e11;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: sticky;
+  top: 0;
+}
+#logo {
+  height: 60px;
+  padding: 2px;
+  padding-left: 10px;
+}
+nav {
+  padding-top: 15px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  font-weight: bold;
+  font-style: italic;
+  color: #ffbc80;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 25px;
+}
+
+.flex-main-row {
+  display: flex;
+  flex-direction: row;
+}
+#orang {
+  flex-grow: 25%;
+}
+#home {
+  flex-grow: 75%;
+  color: #f76e11;
+  font-size: large;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+#home1 {
+  color: #f76e11;
+  font-size: large;
+  text-align: center;
+  padding-top: 25px;
+}
+#home > h1,
+p {
+  text-align: center;
+}
+
+.flex-main-colum {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+}
+section img {
+  width: 250px;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.troli {
+  display: flex;
+  flex-direction: row;
+}
+.keranjang {
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+
+#button1,
+#button2,
+#button3,
+#button4,
+#clear1,
+#clear2,
+#clear3,
+#clear4 {
+  padding: 8px;
+  background-color: #f76e11;
+  color: #fff;
+  margin-left: 65px;
+  border: none;
+}
+.btn-hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+aside {
+  text-align: center;
+  font-size: larger;
+}
+#yosua {
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #f76e11;
+  color: #fff;
+  padding: 20px;
+  margin: 0px auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
